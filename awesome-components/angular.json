@@ -30,9 +30,6 @@
         },
         "@schematics/angular:service": {
           "skipTests": true
-        },
-        "@schematics/angular:application": {
-          "strict": true
         }
       },
       "root": "",
@@ -131,5 +128,7 @@
       }
     }
   },
-  "defaultProject": "awesome-components"
+  "cli": {
+    "analytics": "31c3046a-c237-4054-b6df-c38a54b58908"
+  }
 }
